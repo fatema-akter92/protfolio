@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pawBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb" />
+      <stop offset="100%" stop-color="#fef3c7" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#pawBg)" />
+
+  <!-- Navbar bar -->
+  <rect x="40" y="30" width="720" height="50" rx="14" fill="#ffffff" stroke="#fde68a" stroke-width="1.5" />
+  <circle cx="70" cy="55" r="14" fill="#d97706" />
+  <text x="70" y="60" fill="#ffffff" font-family="sans-serif" font-size="14" text-anchor="middle">🐾</text>
+  <text x="95" y="61" fill="#78350f" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800">PawHaven</text>
+  <text x="185" y="61" fill="#b45309" font-family="sans-serif" font-size="12" font-weight="600">Pet Adoption & Rescue Platform</text>
+  <rect x="630" y="43" width="110" height="26" rx="8" fill="#d97706" />
+  <text x="685" y="60" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Django DRF</text>
+
+  <!-- Filter Pills -->
+  <g transform="translate(40, 95)">
+    <rect x="0" y="0" width="80" height="28" rx="14" fill="#d97706" />
+    <text x="40" y="19" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">All Pets</text>
+    <rect x="90" y="0" width="80" height="28" rx="14" fill="#ffffff" stroke="#fcd34d" />
+    <text x="130" y="19" fill="#92400e" font-family="sans-serif" font-size="12" font-weight="600" text-anchor="middle">🐶 Dogs</text>
+    <rect x="180" y="0" width="80" height="28" rx="14" fill="#ffffff" stroke="#fcd34d" />
+    <text x="220" y="19" fill="#92400e" font-family="sans-serif" font-size="12" font-weight="600" text-anchor="middle">🐱 Cats</text>
+    <rect x="270" y="0" width="100" height="28" rx="14" fill="#ffffff" stroke="#fcd34d" />
+    <text x="320" y="19" fill="#92400e" font-family="sans-serif" font-size="12" font-weight="600" text-anchor="middle">✨ Rescued</text>
+  </g>
+
+  <!-- Pet Card 1: Milo -->
+  <g transform="translate(40, 140)">
+    <rect width="225" height="320" rx="18" fill="#ffffff" stroke="#fde68a" stroke-width="1.5" />
+    <rect x="12" y="12" width="201" height="150" rx="12" fill="#fed7aa" />
+    <!-- Dog illustration -->
+    <circle cx="112" cy="75" r="38" fill="#ea580c" />
+    <circle cx="85" cy="55" r="14" fill="#c2410c" />
+    <circle cx="139" cy="55" r="14" fill="#c2410c" />
+    <circle cx="102" cy="70" r="4" fill="#ffffff" />
+    <circle cx="122" cy="70" r="4" fill="#ffffff" />
+    <ellipse cx="112" cy="85" rx="7" ry="5" fill="#431407" />
+    <text x="112" y="130" fill="#9a3412" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Golden Retriever Puppy</text>
+
+    <text x="20" y="195" fill="#1c1917" font-family="sans-serif" font-size="18" font-weight="800">Milo</text>
+    <rect x="150" y="180" width="55" height="20" rx="10" fill="#fef08a" />
+    <text x="177" y="194" fill="#854d0e" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Vaccinated</text>
+
+    <text x="20" y="222" fill="#78716c" font-family="sans-serif" font-size="11">Age: 5 Months • Male</text>
+    <text x="20" y="240" fill="#78716c" font-family="sans-serif" font-size="11">Dhaka, Bangladesh</text>
+
+    <rect x="20" y="260" width="185" height="38" rx="12" fill="#d97706" />
+    <text x="112" y="284" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">Adopt Milo ❤️</text>
+  </g>
+
+  <!-- Pet Card 2: Luna -->
+  <g transform="translate(285, 140)">
+    <rect width="225" height="320" rx="18" fill="#ffffff" stroke="#fde68a" stroke-width="1.5" />
+    <rect x="12" y="12" width="201" height="150" rx="12" fill="#ddd6fe" />
+    <!-- Cat illustration -->
+    <circle cx="112" cy="75" r="36" fill="#7c3aed" />
+    <polygon points="90,45 80,25 105,38" fill="#6d28d9" />
+    <polygon points="134,45 144,25 119,38" fill="#6d28d9" />
+    <circle cx="102" cy="70" r="4" fill="#ffffff" />
+    <circle cx="122" cy="70" r="4" fill="#ffffff" />
+    <ellipse cx="112" cy="85" rx="4" ry="3" fill="#fdf4ff" />
+    <text x="112" y="130" fill="#581c87" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Persian Tabby Cat</text>
+
+    <text x="20" y="195" fill="#1c1917" font-family="sans-serif" font-size="18" font-weight="800">Luna</text>
+    <rect x="150" y="180" width="55" height="20" rx="10" fill="#e0e7ff" />
+    <text x="177" y="194" fill="#3730a3" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Healthy</text>
+
+    <text x="20" y="222" fill="#78716c" font-family="sans-serif" font-size="11">Age: 1 Year • Female</text>
+    <text x="20" y="240" fill="#78716c" font-family="sans-serif" font-size="11">Uttara, Dhaka</text>
+
+    <rect x="20" y="260" width="185" height="38" rx="12" fill="#7c3aed" />
+    <text x="112" y="284" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">Adopt Luna ❤️</text>
+  </g>
+
+  <!-- Pet Card 3: Bella -->
+  <g transform="translate(530, 140)">
+    <rect width="225" height="320" rx="18" fill="#ffffff" stroke="#fde68a" stroke-width="1.5" />
+    <rect x="12" y="12" width="201" height="150" rx="12" fill="#bae6fd" />
+    <!-- Rescued Pet -->
+    <circle cx="112" cy="75" r="38" fill="#0284c7" />
+    <circle cx="85" cy="55" r="14" fill="#0369a1" />
+    <circle cx="139" cy="55" r="14" fill="#0369a1" />
+    <circle cx="102" cy="70" r="4" fill="#ffffff" />
+    <circle cx="122" cy="70" r="4" fill="#ffffff" />
+    <ellipse cx="112" cy="85" rx="7" ry="5" fill="#082f49" />
+    <text x="112" y="130" fill="#075985" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Rescued Indie Puppy</text>
+
+    <text x="20" y="195" fill="#1c1917" font-family="sans-serif" font-size="18" font-weight="800">Bella</text>
+    <rect x="150" y="180" width="55" height="20" rx="10" fill="#dcfce7" />
+    <text x="177" y="194" fill="#15803d" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Ready</text>
+
+    <text x="20" y="222" fill="#78716c" font-family="sans-serif" font-size="11">Age: 8 Months • Female</text>
+    <text x="20" y="240" fill="#78716c" font-family="sans-serif" font-size="11">Mirpur, Dhaka</text>
+
+    <rect x="20" y="260" width="185" height="38" rx="12" fill="#0284c7" />
+    <text x="112" y="284" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">Adopt Bella ❤️</text>
+  </g>
+</svg>
+

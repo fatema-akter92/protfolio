@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sheBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf2f8" />
+      <stop offset="50%" stop-color="#f0f9ff" />
+      <stop offset="100%" stop-color="#ffffff" />
+    </linearGradient>
+    <linearGradient id="roseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e11d48" />
+      <stop offset="100%" stop-color="#db2777" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#sheBg)" />
+
+  <!-- Navbar -->
+  <rect x="40" y="30" width="720" height="50" rx="14" fill="#ffffff" stroke="#fbcfe8" stroke-width="1.5" />
+  <circle cx="70" cy="55" r="14" fill="#db2777" />
+  <text x="70" y="60" fill="#ffffff" font-family="sans-serif" font-size="14" text-anchor="middle">🌸</text>
+  <text x="95" y="61" fill="#9d174d" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800">SheCare BD</text>
+  <text x="210" y="61" fill="#0284c7" font-family="sans-serif" font-size="12" font-weight="600">PCOS &amp; PMS Healthcare Platform</text>
+  <rect x="620" y="43" width="120" height="26" rx="8" fill="#e11d48" />
+  <text x="680" y="60" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Live on Render</text>
+
+  <!-- Hero Banner -->
+  <g transform="translate(40, 100)">
+    <rect width="720" height="150" rx="18" fill="url(#roseGrad)" />
+    <text x="35" y="45" fill="#fbcfe8" font-family="sans-serif" font-size="13" font-weight="bold" letter-spacing="1">EVIDENCE-BASED HEALTHCARE IN BANGLADESH</text>
+    <text x="35" y="80" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" font-weight="800">Break Societal Taboos, Restore Hormonal Equilibrium</text>
+    <text x="35" y="110" fill="#ffe4e6" font-family="sans-serif" font-size="13">Dedicated clinical awareness and symptom tracking for adolescent girls and women across BD.</text>
+    <rect x="35" y="120" width="130" height="20" rx="10" fill="#ffffff" />
+    <text x="100" y="134" fill="#be123c" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Clinical Guidance</text>
+  </g>
+
+  <!-- Diagnostic & Features Cards -->
+  <g transform="translate(40, 275)">
+    <!-- Card 1: Cycle & Symptom Tracker -->
+    <rect x="0" y="0" width="225" height="185" rx="16" fill="#ffffff" stroke="#fbcfe8" stroke-width="1.5" />
+    <circle cx="35" cy="35" r="16" fill="#fce7f3" />
+    <text x="35" y="40" fill="#db2777" font-size="16" text-anchor="middle">📊</text>
+    <text x="20" y="80" fill="#831843" font-family="sans-serif" font-size="15" font-weight="bold">PCOS / PMS Tracker</text>
+    <text x="20" y="105" fill="#64748b" font-family="sans-serif" font-size="11" line-height="1.4">Algorithmic risk evaluation, symptom log, and menstrual phase calculation.</text>
+    <rect x="20" y="140" width="185" height="30" rx="8" fill="#fdf2f8" stroke="#fbcfe8" />
+    <text x="112" y="160" fill="#be123c" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Track Symptoms →</text>
+
+    <!-- Card 2: Doctor Consultation -->
+    <rect x="245" y="0" width="225" height="185" rx="16" fill="#ffffff" stroke="#bae6fd" stroke-width="1.5" />
+    <circle cx="280" cy="35" r="16" fill="#e0f2fe" />
+    <text x="280" y="40" fill="#0284c7" font-size="16" text-anchor="middle">🩺</text>
+    <text x="265" y="80" fill="#075985" font-family="sans-serif" font-size="15" font-weight="bold">Clinical Doctors</text>
+    <text x="265" y="105" fill="#64748b" font-family="sans-serif" font-size="11">Verified gynecologists and endocrinologists across Dhaka, Chittagong, Sylhet.</text>
+    <rect x="265" y="140" width="185" height="30" rx="8" fill="#f0f9ff" stroke="#bae6fd" />
+    <text x="357" y="160" fill="#0369a1" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Find Specialists →</text>
+
+    <!-- Card 3: Bengali Knowledge Base -->
+    <rect x="495" y="0" width="225" height="185" rx="16" fill="#ffffff" stroke="#ddd6fe" stroke-width="1.5" />
+    <circle cx="530" cy="35" r="16" fill="#ede9fe" />
+    <text x="530" y="40" fill="#7c3aed" font-size="16" text-anchor="middle">📚</text>
+    <text x="515" y="80" fill="#5b21b6" font-family="sans-serif" font-size="15" font-weight="bold">বাংলা হেলথ গাইড</text>
+    <text x="515" y="105" fill="#64748b" font-family="sans-serif" font-size="11">পুষ্টি, ডায়েট এবং হরমোনাল সুস্থতার জন্য প্রমাণভিত্তিক বাংলায় সহায়িকা।</text>
+    <rect x="515" y="140" width="185" height="30" rx="8" fill="#f5f3ff" stroke="#ddd6fe" />
+    <text x="607" y="160" fill="#6d28d9" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">পড়ুন বিস্তারিত →</text>
+  </g>
+</svg>
+
